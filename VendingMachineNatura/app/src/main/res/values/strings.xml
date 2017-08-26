@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EntregaAM</string>
+    <string name="estBarraFunda"><b>Estação Barra Funda</b></string>
+    <string name="estLuz"><b>Estação Luz</b></string>
+    <string name="estConsolacao"><b>Estação Consolação</b></string>
+</resources>

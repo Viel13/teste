@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_produto_selecionado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logonrm.vendingmachinenatura.ProdutoSelecionado">
+
+    <TextView android:id="@+id/txtProdutos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instruções"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/txtPerfume" />
+
+    <ImageView android:id="@+id/imgData"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/cal"/>
+
+    <TextView android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:text="Compareça até a vending machine na data agendada."
+        android:textSize="23dp" />
+
+    <ImageView android:id="@+id/imgMachine"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/machine"/>
+
+    <TextView android:id="@+id/txtMachine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        android:text="Digite o código de retirada na máquina."
+        android:textSize="23dp" />
+
+    <ImageView android:id="@+id/imgInfo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/info"/>
+
+    <TextView android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="260dp"
+        android:text="Você sera notificado para sobre a retirada em seu app."
+        android:textSize="23dp" />
+
+    <ImageView android:id="@+id/imgV"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/v"/>
+
+    <TextView android:id="@+id/txtV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="360dp"
+        android:text="Na notificação, confirme que esta presente no local."
+        android:textSize="23dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="finalizar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="anterior"/>
+
+</RelativeLayout>
