@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NaturaTelaFinal</string>
+    <string name="jsonMachine">
+
+        {"desc":"Estação Barra Funda",
+         "endereco":"Rua Auro Soares de Moura, 664 - Barra Funda - São Paulo, SP - 01154-060",
+         "periodo":"Período da tarde (das 12:00 às 18:00)"};
+
+    </string>
+
+</resources>
