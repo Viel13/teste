@@ -14,13 +14,7 @@ public class ServerCompra {
 
 
 
-            String json = "[{\"acao\":\"Banco Norte\", \"valor\":100.00},\n" +
-
-                    "{\"acao\":\"Mineradora Mineira\", \"valor\":50.00},\n" +
-
-                    "{\"acao\":\"Mutan TI\", \"valor\":80.00},\n" +
-
-                    "{\"acao\":\"Construtora Casa\", \"valor\":110.00}]";
+            String json = "{\"data\":\"16/06/2017\"}";
 
 
 

@@ -10,8 +10,8 @@ public class ServerMachine {
 
 
 
-        String json = "{\"desc\":\"Estação Barra Funda\", " +
-                "\"endereco\":Rua Auro Soares de Moura, 664 - Barra Funda - São Paulo, SP - 01154-060, " +
+        String json = "{\"desc\":\"Estação Barra Funda\", \n " +
+                "\"endereco\":\"Rua Auro Soares de Moura, 664 - Barra Funda - São Paulo, SP - 01154-060\", \n " +
                 "\"periodo\":\"Período da tarde (das 12:00 às 18:00)\"}";
 
 

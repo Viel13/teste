@@ -12,7 +12,7 @@ public class ServerProduto {
 
         String json = "[{\"cod\":\" 1\",\"prod\":\"Perfume Natura 1\", \"valor\":100.00},\n" +
 
-                "{\"cod\":\"2\",\"prod\":\"Desodorante\", \"valor\":50.00},\n" ;
+                "{\"cod\":\"2\",\"prod\":\"Desodorante\", \"valor\":50.00}]\n" ;
 
 
 

@@ -25,17 +25,15 @@
     <TextView android:id="@+id/txtHora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
         android:layout_below="@id/txtData"
         android:layout_centerHorizontal="true"
-
         android:textSize="20dp"/>
 
     <TextView android:id="@+id/txtLocal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtData"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="45dp"
         android:layout_centerHorizontal="true"
 
         android:textSize="25dp"/>
@@ -43,7 +41,7 @@
     <TextView android:id="@+id/txtEndereco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
+
         android:layout_below="@id/txtLocal"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="40dp"
@@ -51,10 +49,21 @@
         android:textSize="18dp"/>
 
 
-    <ListView android:id="@+id/txtProduto"
+
+
+    <TextView android:id="@+id/textoProd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtEndereco"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Produtos"
+        android:textSize="25dp"/>
+
+    <ListView android:id="@+id/txtProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textoProd"
         android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true"
 
@@ -69,14 +78,20 @@
         android:layout_marginLeft="35dp"
         android:layout_marginTop="5dp"/>
 
-    <ImageView android:id="@+id/imgPerfume"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_toRightOf="@id/txtPerfume"
-        android:layout_below="@id/txtProduto"
-        android:layout_marginLeft="160dp"
-        android:src="@drawable/perfume" />
+    <TextView android:id="@+id/TxtCOMPRA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Total"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_below="@id/txtProduto"/>
 
+<TextView android:id="@+id/txtTotal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:layout_below="@id/TxtCOMPRA"/>
 
 
 
@@ -84,10 +99,11 @@
     <Button android:id="@+id/btnConfirmar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="25dp"
         android:layout_centerHorizontal="true"
         android:text="Confirmar Compra"
-        android:onClick="ConfirmarCompra"/>
+        android:onClick="ConfirmarCompra"
+        android:layout_below="@id/txtTotal"/>
 
 
 </RelativeLayout>

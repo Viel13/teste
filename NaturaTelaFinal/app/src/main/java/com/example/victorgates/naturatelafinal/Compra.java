@@ -3,7 +3,7 @@ package com.example.victorgates.naturatelafinal;
 import java.util.Calendar;
 
 /**
- * Created by Victor Gates on 8/26/2017.
+  * Created by Victor Gates on 8/26/2017.
  */
 
 public class Compra  {
